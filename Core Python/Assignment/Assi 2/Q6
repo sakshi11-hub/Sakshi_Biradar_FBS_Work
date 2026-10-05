@@ -1,0 +1,8 @@
+S = int(input("Enter the salary of employee"))
+
+da = S * 10/100
+ta = S * 12/100
+hra = S * 15/100
+
+total_salary = S + da + ta + hra
+print("Total salary of employee",total_salary)

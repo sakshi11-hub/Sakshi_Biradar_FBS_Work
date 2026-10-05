@@ -1,0 +1,13 @@
+amount = int(input("Enter the amount:"))
+
+note_200 = amount // 200
+amount = amount % 200
+
+note_100 = amount // 100
+amount = amount % 100
+
+note_50 = amount // 50
+amount = amount % 50
+
+total_note = note_200 + note_100 + note_50
+print("number of notes are ", total_note)

@@ -1,0 +1,5 @@
+S = float(input("Enter side:"))
+
+area = (3** 0.5 /4) * (S **2)
+
+print("Area of equilateral triangle is",area)

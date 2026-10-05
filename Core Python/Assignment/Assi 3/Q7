@@ -1,0 +1,16 @@
+userid = input("Enter User_Id: ")
+password = input("Enter Password: ")
+
+num = 5555
+
+if userid == "sakshibiradar" and password == "9090saku":
+    print("Your 4-digit number is:", num)
+    user = int(input("Enter the number: "))
+
+    if user == num:
+        print("Success")
+    else:
+        print("Failed")
+else:
+    print("Invalid userid and password")
+        

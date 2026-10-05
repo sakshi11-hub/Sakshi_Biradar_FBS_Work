@@ -1,0 +1,11 @@
+L = int(input("Enter length:"))
+W = int(input("Enter Width:"))
+
+Area = L * W
+print("Area of rectangle is", Area)
+
+B = float(input("Enter base :"))
+H = float(input("Enter heigth :"))
+
+Area = 1/2 * B * H
+print("Area of triangle is", Area)

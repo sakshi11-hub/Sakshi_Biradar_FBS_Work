@@ -1,0 +1,8 @@
+A = int(input("Enter number for divisor"))
+B = int(input("Enter number for dividend"))
+
+Q = A / B
+R = A % B
+
+print("Quotient is :",Q)
+print("Remiander is :",R)

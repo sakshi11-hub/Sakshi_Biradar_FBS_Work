@@ -1,0 +1,11 @@
+SP = int(input("Enter the amount:"))
+CP = int(input("Enter the amount:"))
+
+if(SP > CP):
+    print("profit")
+elif(CP > SP):
+    print("Loss")
+else:
+    print("No loss No profit")
+     
+

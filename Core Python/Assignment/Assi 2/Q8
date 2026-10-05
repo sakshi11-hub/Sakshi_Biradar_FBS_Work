@@ -1,0 +1,8 @@
+A = int(input("Enter the value for A:"))
+B = int(input("Enter the value for B:"))
+
+C = A
+A = B
+B = C
+print("After swapping A :",A)
+print("After swapping B :",B)

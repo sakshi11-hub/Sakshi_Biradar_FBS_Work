@@ -1,0 +1,20 @@
+total = 0
+
+for i in range(5):
+    age = int(input("Enter age: "))
+    ticket = int(input("Enter ticket amount: "))
+
+    if age < 12:
+        discount = ticket * 30 / 100
+        final_amount = ticket - discount
+
+    elif age > 59:
+        discount = ticket * 50 / 100
+        final_amount = ticket - discount
+
+    else:
+        final_amount = ticket
+
+    total = total + final_amount
+
+print("Total ticket amount =", total) 

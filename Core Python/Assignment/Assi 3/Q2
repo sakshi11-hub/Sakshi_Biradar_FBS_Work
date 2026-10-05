@@ -1,0 +1,6 @@
+chr = input("Enter the charater:")
+
+if(chr =='a' or chr =='e' or chr =='i' or chr =='o' or chr =='u'):
+    print("Charater is vowel")
+else:
+    print("Charater is consonant")    

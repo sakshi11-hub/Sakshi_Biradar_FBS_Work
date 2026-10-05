@@ -1,0 +1,7 @@
+CP = int(input("Enter the costprice :"))
+discount = int(input("Enter the discount :"))
+
+discount_amount = CP * discount / 100 
+selling_price = CP - discount_amount
+
+print("Selling price of book is",selling_price)

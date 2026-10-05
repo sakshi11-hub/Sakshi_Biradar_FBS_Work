@@ -1,0 +1,7 @@
+userid = input("Enter userid")
+password = input("Enter password")
+
+if(userid =='sakshiBiradar' and password =='5050saku'):
+    print("correct")
+else:
+    print("Incorrect")    

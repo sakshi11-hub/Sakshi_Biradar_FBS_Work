@@ -1,0 +1,13 @@
+feet = int(input("Enter the feet:"))
+inches = int(input("Enter the inches:"))
+
+total_inches = (feet * 12)+ inches
+total_cm = total_inches * 2.54
+
+meter = int(total_cm // 100)
+centimeter = total_cm % 100
+
+
+print("Distance in meter is:", meter)
+print("Distance in centimeter is:", centimeter)
+
