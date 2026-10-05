@@ -1,0 +1,5 @@
+R = float(input("Enter radius:"))
+
+VOS = 4/3 * 3.14 *(R ** 3)
+
+print("Volume of sphere", VOS)
