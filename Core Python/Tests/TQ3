@@ -1,0 +1,10 @@
+kilometers = float(input("Enter distance in kilometers: "))
+
+meters = kilometers * 1000
+
+centimeters = meters * 100
+
+print(f"Distance in Meters: {meters:.2f} m")
+print(f"Distance in Centimeters: {centimeters:.2f} cm")
+
+
