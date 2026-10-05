@@ -1,7 +1,0 @@
-P = float(input("Enter value for principal"))
-T = float(input("Enter value for time"))
-R = float(input("Enter value for rate"))
-
-Amount = P  * (1 + R /100)**T
-CI = Amount - P
-print("Compound interest is",CI)

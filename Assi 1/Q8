@@ -1,6 +1,0 @@
-B = float(input("Enter value for base:" ))
-H = float(input("Enter value for height:"))
-
-area = 1/2 * B * H
-
-print("Area of triangle is", area)

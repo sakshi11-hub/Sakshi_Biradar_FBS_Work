@@ -1,7 +1,0 @@
-P = int(input("Enter value for principle:"))
-T = int(input("Enter value for time:"))
-R = int(input("Enter value for rate:"))
-
-SI = P * T * R / 100
-
-print("Simple interest is ",SI)

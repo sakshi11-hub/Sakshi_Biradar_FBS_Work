@@ -1,6 +1,0 @@
-A = int(input("Enter value for first angle:"))
-B = int(input("Enter value for second angle:"))
-
-C = 180 - (A + B)
- 
-print("Thrid angle is ", C)
