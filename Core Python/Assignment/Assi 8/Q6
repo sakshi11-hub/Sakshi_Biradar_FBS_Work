@@ -1,0 +1,15 @@
+def fibonacci_series(n):
+    a = 1
+    b = 1
+    total = ""
+    for i in range(n):
+        total = total + str(a) + " " 
+        c = a + b
+        a = b
+        b = c
+    return total    
+        
+n = int(input("Enter n:"))
+
+res = fibonacci_series(n)
+print(res)

@@ -1,0 +1,17 @@
+def reversenumber(num):
+    temp = num
+    reverse = 0
+
+    while num > 0:
+        d = num % 10
+        reverse = reverse * 10 + d
+        num = num // 10
+    return reverse
+        
+    
+
+num = int(input("Enter the number:"))
+
+res = reversenumber(num)
+print(res)
+        

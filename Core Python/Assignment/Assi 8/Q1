@@ -1,0 +1,9 @@
+def Areaofrectangle(L,W):
+    Area = L * W
+    return Area
+
+L = float(input("Enter length:"))
+W = float(input("Enter width"))
+
+res = Areaofrectangle(L,W)
+print(res)
