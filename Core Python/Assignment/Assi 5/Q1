@@ -1,0 +1,18 @@
+correct_id = "admin"
+correct_password = 1234
+
+attempts = 0
+
+while attempts < 3:
+    userid = input("Enter ID:")
+    password = int(input("Enter password:"))
+
+    if userid == correct_id and password == correct_password :
+        print("Login successful")
+        break
+    else:
+        print("Incorrect user ID and password")
+        attempts += 1
+
+    if attempts == 3:
+        print("You have exceeded the maximum number of attempts")    

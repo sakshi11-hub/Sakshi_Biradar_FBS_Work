@@ -1,0 +1,27 @@
+start = int(input("Enter the starting number: "))
+end = int(input("Enter the ending number: "))
+
+for num in range(start, end + 1):
+    original = num
+    temp = num
+    count = 0
+    sum = 0
+
+    while temp > 0:
+        count += 1
+        temp = temp // 10
+
+    temp = num
+
+    while temp > 0:
+        d = temp % 10
+        power = d ** count
+        sum += power
+        temp = temp // 10
+
+    if original == sum:
+        print(original)
+
+
+
+
